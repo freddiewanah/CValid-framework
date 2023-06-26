@@ -1,0 +1,45 @@
+{
+  "name": "cwallet-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@json-rpc-tools/utils": "^1.7.6",
+    "@mui/icons-material": "^5.10.15",
+    "@mui/lab": "^5.0.0-alpha.109",
+    "@mui/material": "^5.10.15",
+    "@perawallet/connect": "^1.2.2",
+    "@walletconnect/client": "^1.8.0",
+    "algorand-walletconnect-qrcode-modal": "^1.8.0",
+    "algosdk": "^2.2.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.9.1",
+    "fslightbox": "^3.3.1",
+    "next": "12.3.1",
+    "nextjs-google-analytics": "^2.3.0",
+    "nft.storage": "^7.0.3",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "18.2.0",
+    "react-mui-fileuploader": "^0.3.0",
+    "react-youtube": "^10.1.0",
+    "sass": "^1.55.0",
+    "scss": "^0.2.4",
+    "swiper": "^8.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.3",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.26.0",
+    "eslint-config-next": "12.3.1",
+    "typescript": "4.8.4"
+  }
+}
